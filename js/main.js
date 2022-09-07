@@ -31,6 +31,4 @@ function resetArray() {
   generateArray();
   myChart.data.datasets[0].data = array;
   myChart.update();
-  console.log("Generate Array");
-  console.log(array);
 }

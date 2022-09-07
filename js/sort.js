@@ -28,10 +28,10 @@ function bubbleSort() {
 	for(var i = 0; i < arraySize; i++) {
 		for(var j = 0; j < arraySize - 1; j++) {
 			if(sortedArray[j] > sortedArray[j + 1]) {
+				console.log(sortedArray)
 				var x = sortedArray[j];
 				sortedArray[j] = sortedArray[j + 1];
 				sortedArray[j + 1] = x;
-				console.log(sortedArray)
 			}
 		}
 	}
