@@ -31,6 +31,7 @@ function bubbleSort() {
 				var x = sortedArray[j];
 				sortedArray[j] = sortedArray[j + 1];
 				sortedArray[j + 1] = x;
+				console.log(sortedArray)
 			}
 		}
 	}
